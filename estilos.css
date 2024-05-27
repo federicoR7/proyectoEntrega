@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.body{
+    background-color: rgb(233, 223, 225);
+}
+.cajaMenu{
+    
+}
+.menu{
+    width: 100%;
+    justify-content: space-around;
+}
+.sections{
+    display: inline;
+}
+.acordeon{
+    display: flex;
+    justify-content: center;
+}
+.botonPrueba{
+    background: linear-gradient(90deg,rgb(233, 223, 225)60%, white)
+
+}
+.titulo{
+    display: flex;
+
+}
+.cajaOpciones{
+    display: flex;
+}
