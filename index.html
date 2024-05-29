@@ -33,7 +33,16 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">Corte de pelo</a>
+
                                 </li>
+                                <ul class="dropdown-menu dropend">
+                                    <li><a class="dropdown-item" href="#">Manicuría</a></li>
+                                    <li><a class="dropdown-item" href="#">Esculpidas</a></li>
+                                    <li><a class="dropdown-item" href="#">Pies</a></li>
+                                    <li><a class="dropdown-item" href="#">Tratamientos Faciales</a></li>
+                                    <li><a class="dropdown-item" href="#">Depilación</a></li>
+
+                                </ul>
 
                                 <li><a class="dropdown-item" href="#">Manicuría</a></li>
                                 <li><a class="dropdown-item" href="#">Esculpidas</a></li>
@@ -58,254 +67,350 @@
         </nav>
     </header>
 
+    <div class="cajaContenedora">
+
+        <aside class="asideIzq">
+            <div class="mapa mt-5">
+                <iframe class="mapaGoogle"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5532.783657271624!2d-58.522725952279096!3d-34.45689843273912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcafd86c10fd91%3A0xfdf5b2c1f3de27ca!2sVery%20nails!5e0!3m2!1ses-419!2sar!4v1716990453171!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Av. del Libertador 17610, Beccar</p>
+            </div>
+            <div class="container">
+                <table class="table-primary table horarios">
+                    <thead>
+                        <tr class="horarios">
+                            <th scope="col">Atención</th>
+                            <th scope="col">Días</th>
+                            <th scope="col">Horarios</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Abierto</th>
+                            <td>Lunes</td>
+                            <td>9:30hs - 19hs</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">Abierto</th>
+                            <td>Martes</td>
+                            <td>9:30hs - 19hs</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">Abierto</th>
+                            <td>Miércoles</td>
+                            <td>9:30hs - 19hs</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">Abierto</th>
+                            <td>Jueves</td>
+                            <td>9:30hs - 19hs</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">Abierto</th>
+                            <td>Viernes</td>
+                            <td>9:30hs - 19hs</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">Abierto</th>
+                            <td>Sábado</td>
+                            <td>9:30hs - 19hs</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">Cerrado</th>
+                            <td>Domingo</td>
+                            <td> - </td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </aside>
 
 
-    <section class="acordeon mt-5">
+        <section class="acordeon mt-5 formularioServicio">
 
-        <div class="accordion accordion-flush w-50 p-3 bg-light rounded" id="accordionFlushExample">
-            <h5 class="titulo">SERVICIOS</h5>
 
-            <div class="accordion-item mb-3">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Corte de pelo
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cajaOpciones">
-                        <div class="card-sm border rounded me-3" style="width: 18rem;">
-                            <img src="./imagenes/imagen-peluqueria.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Tintura</h5>
-                                <p class="card-text">Tinte de cabello con los mejores productos, también podes elegir diseños!</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
+            <div class="accordion accordion-flush w-100 p-3 bg-light rounded" id="accordionFlushExample">
+                <h5 class="titulo">SERVICIOS</h5>
+
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Corte de pelo
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body cajaOpciones">
+
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/imagen-peluqueria.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tintura</h5>
+                                    <p class="card-text">Tinte de cabello con los mejores productos, también podes
+                                        elegir diseños!</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/imagen-peluqueria.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">corte</h5>
+                                    <p class="card-text">Dale estilo a tu cabello con las mejores profesionales, dejales
+                                        tu pelo en sus manos y mirá la magia!</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="./imagenes/imagen-peluqueria.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Alisado</h5>
+                                    <p class="card-text">Deja tu cabello alisado por meses! sin planchita, como una
+                                        seda!</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="card-sm border rounded me-3" style="width: 18rem;">
-                            <img src="./imagenes/imagen-peluqueria.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">corte</h5>
-                                <p class="card-text">Dale estilo a tu cabello con las mejores profesionales, dejales tu pelo en sus manos y mirá la magia!</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Manicuría
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body cajaOpciones">
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/16745628932796.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Manicuría tradicional</h5>
+                                    <p class="card-text">Manicuría completa con esmalte común.</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/16745628932796.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Manicuría Semipermanente</h5>
+                                    <p class="card-text">Manicuría completa con esmalte semipermanente.</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="./imagenes/16745628932796.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Capping</h5>
+                                    <p class="card-text">manicuría completa con una capa de gel protectora, incluye
+                                        semipermanente</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="card-sm border rounded" style="width: 18rem;">
-                            <img src="./imagenes/imagen-peluqueria.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Alisado</h5>
-                                <p class="card-text">Deja tu cabello alisado por meses! sin planchita, como una seda!</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Esculpidas
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body cajaOpciones">
+
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/esculpidas.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Esculpidas en acrilico</h5>
+                                    <p class="card-text">Extendemos el largo de tus uñas con acrilico, incluye
+                                        semipermanente</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/esculpidas.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Esculpidas en gel</h5>
+                                    <p class="card-text">Extendemos el largo de tus uñas con gel, incluye semipermanente
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="./imagenes/esculpidas.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Soft Gel</h5>
+                                    <p class="card-text">extendemos el largo de tus uñas con tips de plastico, incluye
+                                        semipermanente</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Pies
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body cajaOpciones">
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/pies.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">pedicuría</h5>
+                                    <p class="card-text">Trabajo extensivo en talones y uñas encarnadas, incluye belleza
+                                        de pies y esmaltado tradicional o semipermanente</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/pies.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Belleza de pies</h5>
+                                    <p class="card-text">embellecimiento de pies, incluye esmaltado tradicional o
+                                        semipermanente</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="./imagenes/pies.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Corte de uñas</h5>
+                                    <p class="card-text">Simple corte de uñas y limado</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Tratamientos Faciales
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body cajaOpciones">
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/tratamiento-facial.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Limpieza Facial</h5>
+                                    <p class="card-text">Limpieza de cutis con los mejores productos importados,
+                                        mascarilla humectante de Aloe Vera</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/tratamiento-facial.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Humectación</h5>
+                                    <p class="card-text">Humectación de rostro y labios con los mejores productos
+                                        importados</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="./imagenes/tratamiento-facial.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Remoción de manchas</h5>
+                                    <p class="card-text">Remoción de manchas de la piel con láser de última tecnología,
+                                        indoloro</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Depilación
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body cajaOpciones">
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/depilacion-laser.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Depilación con cera</h5>
+                                    <p class="card-text">Depilación con cera caliente de alta calidad, no quema</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card me-3 w-100 cajaMargin" style="width: 18rem;">
+                                <img src="./imagenes/depilacion-laser.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Depilación definitiva</h5>
+                                    <p class="card-text">Depilación con láser de última tecnología con cabezal frío, no
+                                        duele ni quema</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="./imagenes/depilacion-laser.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Perfilado</h5>
+                                    <p class="card-text">Perfilado de cejas con pinza</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="accordion-item mb-3">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Manicuría
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cajaOpciones">
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/16745628932796.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Manicuría tradicional</h5>
-                                <p class="card-text">Manicuría completa con esmalte común.</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
+        </section>
 
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/16745628932796.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Manicuría Semipermanente</h5>
-                                <p class="card-text">Manicuría completa con esmalte semipermanente.</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
+        <aside class="whatsapp mt-5">
+            <p class="fw-medium">Hablanos!</p>
+            <a href="https://wa.me/1530288807">
+                <img class="whatsappImg" src="./imagenes/logowpp.png" alt="">
+            </a>
+        </aside>
 
-                        <div class="card" style="width: 18rem;">
-                            <img src="./imagenes/16745628932796.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Capping</h5>
-                                <p class="card-text">manicuría completa con una capa de gel protectora, incluye semipermanente</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item mb-3">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Esculpidas
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cajaOpciones">
-
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/esculpidas.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Esculpidas en acrilico</h5>
-                                <p class="card-text">Extendemos el largo de tus uñas con acrilico, incluye semipermanente</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/esculpidas.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Esculpidas en gel</h5>
-                                <p class="card-text">Extendemos el largo de tus uñas con gel, incluye semipermanente</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="./imagenes/esculpidas.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Soft Gel</h5>
-                                <p class="card-text">extendemos el largo de tus uñas con tips de plastico, incluye semipermanente</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item mb-3">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        Pies
-                    </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cajaOpciones">
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/pies.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">pedicuría</h5>
-                                <p class="card-text">Trabajo extensivo en talones y uñas encarnadas, incluye belleza de pies y esmaltado tradicional o semipermanente</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/pies.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Belleza de pies</h5>
-                                <p class="card-text">embellecimiento de pies, incluye esmaltado tradicional o semipermanente</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="./imagenes/pies.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Corte de uñas</h5>
-                                <p class="card-text">Simple corte de uñas y limado</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item mb-3">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                        Tratamientos Faciales
-                    </button>
-                </h2>
-                <div id="flush-collapseFive" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cajaOpciones">
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/tratamiento-facial.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Limpieza Facial</h5>
-                                <p class="card-text">Limpieza de cutis con los mejores productos importados, mascarilla humectante de Aloe Vera</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/tratamiento-facial.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Humectación</h5>
-                                <p class="card-text">Humectación de rostro y labios con los mejores productos importados</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="./imagenes/tratamiento-facial.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Remoción de manchas</h5>
-                                <p class="card-text">Remoción de manchas de la piel con láser de última tecnología, indoloro</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item ">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed botonPrueba" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                        Depilación
-                    </button>
-                </h2>
-                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cajaOpciones">
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/depilacion-laser.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Depilación con cera</h5>
-                                <p class="card-text">Depilación con cera caliente de alta calidad, no quema</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-
-                        <div class="card me-3" style="width: 18rem;">
-                            <img src="./imagenes/depilacion-laser.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Depilación definitiva</h5>
-                                <p class="card-text">Depilación con láser de última tecnología con cabezal frío, no duele ni quema</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="./imagenes/depilacion-laser.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Perfilado</h5>
-                                <p class="card-text">Perfilado de cejas con pinza</p>
-                                <a href="#" class="btn btn-primary">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
