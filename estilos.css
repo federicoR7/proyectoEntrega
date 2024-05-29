@@ -31,3 +31,10 @@
 .cajaOpciones{
     display: flex;
 }
+
+@media(max-width:768px){
+    .cajaOpciones{
+        display: block;
+    }
+ 
+}
