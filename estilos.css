@@ -1,13 +1,10 @@
 .header{
     display: flex;
-    justify-content: center;
     background-color: white;
+    justify-content: flex-end
 }
 .body{
     background-color: rgb(233, 223, 225);
-}
-.cajaMenu{
-    
 }
 .menu{
     width: 100%;
@@ -49,31 +46,27 @@
     
 }
 
-.table{
-    background-color: rgb(233, 223, 225) !important;
+.containerTabla{
+    display: grid;
+    justify-content: end;
 }
-.table-primary{
-    background-color: rgb(233, 223, 225) !important;
+
+.fila{
+    border: rgba(185, 185, 185, 0.726) solid 1px;
+    border-left: none;
+    border-right: none;
+
 }
-.horarios th{
-    background-color: brown;
+th, td{
+    font-size: 14px;
+    padding: 0.2rem;
 }
-.horarios tr{
-    background-color: brown;
-}
-.horario td{
-    background-color: brown;
-}
-.horarios tbody{
-    background-color: blueviolet;
-}
+
 .whatsapp{
-   
-    margin-right: 2rem;
     width: 25%;
     border-radius: 10rem;
     text-align: end;
-    
+    padding: 1rem;    
 }
 
 .whatsappImg{
@@ -84,13 +77,35 @@
 }
 .cajaContenedora{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
 .formularioServicio{
     width:50%;
     position: static;
+}
+.cajaCarousel{
+    display: grid;
+    justify-items: center;
+    background-color: white;
+    width: 50%;
+    border-radius: 0.5rem;
+}
+.cajaContenedoraCarousel{
+    display: flex;
+    justify-content: center;
+}
+
+
+.pruebaCarousel{
+    width: 97%;
+    margin: 0.5rem;
+}
+
+.footer{
+    background-color: white;
+    height: 5rem;
 }
 
 
