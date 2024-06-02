@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Agenda de Turnos</title>
 </head>
-<body>
-    <h1>acerca de nosotros</h1>
-    
+
+<body class="body">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg w-50">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./imagenes/logoVN.jpg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse cajaMenu" id="navbarNavDropdown">
+                    <ul class="navbar-nav menu">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu dropend">
+
+                                <li><a class="dropdown-item" href="./reservas.html">Corte de pelo</a></li>
+                                <li><a class="dropdown-item" href="./reservas.html">Manicuría</a></li>
+                                <li><a class="dropdown-item" href="./reservas.html">Esculpidas</a></li>
+                                <li><a class="dropdown-item" href="./reservas.html">Pies</a></li>
+                                <li><a class="dropdown-item" href="./reservas.html">Tratamientos Faciales</a></li>
+                                <li><a class="dropdown-item" href="./reservas.html">Depilación</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ubicacion.html">Donde estamos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <aside class="whatsapp">
+            <a href="https://wa.me/1530288807">
+                <img class="whatsappImg" src="./imagenes/logowpp.png" alt="">
+            </a>
+        </aside>
+
+    </header>
+
+    <div class="cajaContenedoraNosotros">
+
+    <div class="w-50 textoNosotros">
+    <h4>Quienes somos?</h4>
+        <p>Somos un local de estética con más de 10 años de experiancia en el rubro, dedicaco a dar lo mejor en cada servicio para que cada clienta se sienta única en su estadía en nuestro local.</p>
+        <p>contamos con garantías en todos nuestros servicios para tu tranquilidad. Contamos con productos de primera calidad de elaboración propia.</p>
+        <p>Cada una de nuestras profesionales esta capacitada en una especialización diferente.</p>
+    </div>
+
+
+
+    </div>
+    <div class="cajaContenedoraCarousel">
+        <div class="cajaCarousel m-3">
+            <h5 class="mt-3">Conocé nuestros servicios!</h5>
+
+            <div class="pruebaCarousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="./imagenes/16745628932796.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagenes/imagen-peluqueria.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagenes/tratamiento-facial.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="mt-3">
+            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+            <a class="nav-link" href="./ubicacion.html">Donde estamos</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+        </div>
+        <aside class="whatsapp">
+            <a href="https://wa.me/1530288807">
+                <img class="whatsappImg" src="./imagenes/logowpp.png" alt="">
+            </a>
+        </aside>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

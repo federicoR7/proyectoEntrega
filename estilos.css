@@ -3,6 +3,8 @@
     background-color: white;
     justify-content: flex-end
 }
+
+
 .body{
     background-color: rgb(233, 223, 225);
 }
@@ -49,7 +51,7 @@
 
 .containerTabla{
     display: grid;
-    justify-content: end;
+    justify-content: center;
     margin-top: 7rem;
 }
 
@@ -58,6 +60,10 @@
     border-left: none;
     border-right: none;
 
+}
+
+.cerrado{
+    text-align: center;
 }
 th, td{
     font-size: 14px;
@@ -98,6 +104,7 @@ th, td{
 .cajaContenedoraCarousel{
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
 
@@ -107,8 +114,13 @@ th, td{
 }
 
 .footer{
-    background-color: white;
-    height: 5rem;
+    background-color: white; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between
 }
 
 
@@ -207,4 +219,23 @@ th, td{
 .containerTablaForm{
     display: grid;
     justify-content: end;
+}
+
+/*css Nosotros*/
+
+.textoNosotros{
+    text-align: center;
+}
+.cajaContenedoraNosotros{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/*css para ubicación*/
+
+.mapaUbi{
+    margin: 4rem;
+    background-color: white;
+    border-radius: 0.5rem;
 }
