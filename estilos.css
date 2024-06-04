@@ -132,11 +132,23 @@ th, td{
 @media(max-width:768px){
     .cajaOpciones{
         display: block;
+        width: 100%;
     }
     .cajaMargin{
         margin-bottom: 1rem;
     }
- 
+    .cajaContenedora{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+
+    }
+    .asideIzq{
+        width: 200%;
+    }
+    .formularioServicio{
+        width: 100%;
+    }
 }
 
 
